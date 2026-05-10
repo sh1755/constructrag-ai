@@ -54,17 +54,3 @@ Ollama Local LLM
         ↓
 Streamlit User Interface
 
-# Project Structure
-
-constructrag-ai/
-│
-├── app.py
-├── ingest.py
-├── rag_chain.py
-├── requirements.txt
-├── README.md
-│
-├── data/
-│   └── products.csv
-│
-└── vectorstore/
