@@ -56,12 +56,10 @@ Retriever
 Ollama Local LLM
         ↓
 Streamlit User Interface
-
----
-```md
+```
 # Project Structure
 
-```text
+
 constructrag-ai/
 │
 ├── app.py
@@ -74,16 +72,36 @@ constructrag-ai/
 │   └── products.csv
 │
 └── vectorstore/
+# Project Structure
+
+
+
 # Installation
 
-# Clone Repository
+## Clone Repository
 
 ```bash
 git clone https://github.com/sh1755/constructrag-ai.git
 cd constructrag-ai
+```
 
+## Create Virtual Environment
+
+```bash
 python -m venv venv
+```
 
+## Activate Environment
+
+```bash
+venv\Scripts\activate
+```
+
+## Install Dependencies
+
+```bash
+pip install -r requirements.txt
+```
 venv\Scripts\activate
 
 pip install -r requirements.txt
