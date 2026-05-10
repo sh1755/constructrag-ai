@@ -1,37 +1,35 @@
-# constructrag-ai
-AI-powered construction product intelligence system using RAG, LangChain, FAISS, HuggingFace embeddings, Ollama, and Streamlit for semantic search, supplier comparison, and material recommendation.
-
 # ConstructRAG AI
 
-AI-powered construction product intelligence assistant using Retrieval-Augmented Generation (RAG), semantic search, and local large language models.
+AI-powered construction product intelligence system using Retrieval-Augmented Generation (RAG), LangChain, FAISS, HuggingFace embeddings, Ollama, and Streamlit for semantic search, supplier comparison, and material recommendation.
 
 ---
 
-## Overview
+# Overview
 
-ConstructRAG AI is an end-to-end AI system designed for construction product recommendation, supplier comparison, compatibility analysis, and semantic product retrieval.
+ConstructRAG AI is an end-to-end AI-powered construction product intelligence assistant designed for semantic product retrieval, supplier comparison, compatibility analysis, and intelligent recommendation generation.
 
-The system uses LangChain, FAISS vector databases, HuggingFace embeddings, Ollama local LLMs, and Streamlit to provide intelligent responses from structured construction product datasets.
+The system leverages LangChain, FAISS vector databases, HuggingFace transformer embeddings, Ollama local large language models, and Streamlit to create an efficient Retrieval-Augmented Generation (RAG) pipeline for construction product analysis.
 
 ---
 
-## Features
+# Features
 
 - Semantic construction product search
 - AI-powered supplier comparison
 - Material compatibility analysis
 - Cost and recommendation analysis
 - Local LLM inference using Ollama
-- Streamlit web interface
+- Streamlit interactive web interface
 - Retrieval-Augmented Generation (RAG) pipeline
+- Intelligent product recommendation system
 
 ---
 
-## Tech Stack
+# Tech Stack
 
 - Python
 - LangChain
-- FAISS
+- FAISS Vector Database
 - HuggingFace Embeddings
 - Ollama
 - Streamlit
@@ -39,12 +37,12 @@ The system uses LangChain, FAISS vector databases, HuggingFace embeddings, Ollam
 
 ---
 
-## System Architecture
+# System Architecture
 
 ```text
 CSV/PDF Product Data
         ↓
-Data Ingestion
+Data Ingestion Pipeline
         ↓
 Text Embeddings
         ↓
@@ -55,6 +53,8 @@ Retriever
 Ollama Local LLM
         ↓
 Streamlit User Interface
+
+# Project Structure
 
 constructrag-ai/
 │
@@ -68,54 +68,3 @@ constructrag-ai/
 │   └── products.csv
 │
 └── vectorstore/
-
-Installation
-Clone Repository
-git clone https://github.com/sh1755/constructrag-ai.git
-cd constructrag-ai
-Create Virtual Environment
-python -m venv venv
-Activate Environment
-
-Windows:
-
-venv\Scripts\activate
-Install Dependencies
-pip install -r requirements.txt
-Run Ollama
-
-Install Ollama from:
-
-https://ollama.com
-
-Pull model:
-
-ollama pull phi3
-
-Run model:
-
-ollama run phi3
-Create Vector Database
-python ingest.py
-Run Application
-streamlit run app.py
-Example Questions
-Compare cement board and plasterboard for bathroom walls.
-Which supplier offers the cheapest wall board?
-Recommend products for humid environments.
-Which construction material is water resistant?
-Suggest compatible materials for tiles.
-Future Improvements
-PDF document ingestion
-Cloud deployment
-Chat memory
-Agentic RAG
-AWS/Azure deployment
-Real-time supplier APIs
-Author
-
-Sajjad Hussain
-
-PhD Researcher in  Artificial Intelligence
-University of Brighton, UK
-
