@@ -71,3 +71,55 @@ constructrag-ai/
 │   └── products.csv
 │
 └── vectorstore/
+
+# Installation
+
+## Clone Repository
+
+```bash
+git clone https://github.com/sh1755/constructrag-ai.git
+cd constructrag-ai
+
+python -m venv venv
+
+venv\Scripts\activate
+
+pip install -r requirements.txt
+
+ollama pull phi3
+
+
+# Pull Model
+ollama pull phi3
+Run Model
+ollama run phi3
+Create Vector Database
+python ingest.py
+Run Application
+streamlit run app.py
+# Example Questions
+
+Compare cement board and plasterboard for bathroom walls.
+Which supplier offers the cheapest wall board?
+Recommend products for humid environments.
+Which construction material is water resistant?
+Suggest compatible materials for tiles.
+Compare insulation materials for thermal efficiency.
+
+# Future Improvements
+
+PDF document ingestion
+Cloud deployment
+Chat memory integration
+Agentic RAG architecture
+AWS/Azure deployment
+Real-time supplier APIs
+Multi-agent workflow automation
+Construction material analytics dashboard
+
+# Author
+Sajjad Hussain
+
+PhD Researcher in Artificial Intelligence
+University of Brighton, United Kingdom
+
