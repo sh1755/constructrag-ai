@@ -1,4 +1,3 @@
-
 # ConstructRAG AI
 
 AI-powered construction product intelligence system using Retrieval-Augmented Generation (RAG), LangChain, FAISS, HuggingFace embeddings, Ollama, and Streamlit for semantic search, supplier comparison, and material recommendation.
@@ -38,8 +37,6 @@ The system leverages LangChain, FAISS vector databases, HuggingFace transformer 
 
 ---
 
-
-
 # System Architecture
 
 ```text
@@ -57,9 +54,12 @@ Ollama Local LLM
         ↓
 Streamlit User Interface
 ```
+
+---
+
 # Project Structure
 
-
+```text
 constructrag-ai/
 │
 ├── app.py
@@ -71,10 +71,13 @@ constructrag-ai/
 ├── data/
 │   └── products.csv
 │
+├── images/
+│   └── construction_rag_ai.png
+│
 └── vectorstore/
-# Project Structure
+```
 
-
+---
 
 # Installation
 
@@ -102,45 +105,72 @@ venv\Scripts\activate
 ```bash
 pip install -r requirements.txt
 ```
-venv\Scripts\activate
 
-pip install -r requirements.txt
+---
 
+# Run Ollama
+
+Install Ollama from:
+
+https://ollama.com
+
+## Pull Model
+
+```bash
 ollama pull phi3
+```
 
+## Run Model
 
-# Pull Model
-ollama pull phi3
-Run Model
+```bash
 ollama run phi3
-Create Vector Database
+```
+
+---
+
+# Create Vector Database
+
+```bash
 python ingest.py
-Run Application
+```
+
+---
+
+# Run Application
+
+```bash
 streamlit run app.py
+```
+
+---
+
 # Example Questions
 
-Compare cement board and plasterboard for bathroom walls.
-Which supplier offers the cheapest wall board?
-Recommend products for humid environments.
-Which construction material is water resistant?
-Suggest compatible materials for tiles.
-Compare insulation materials for thermal efficiency.
+- Compare cement board and plasterboard for bathroom walls.
+- Which supplier offers the cheapest wall board?
+- Recommend products for humid environments.
+- Which construction material is water resistant?
+- Suggest compatible materials for tiles.
+- Compare insulation materials for thermal efficiency.
+
+---
 
 # Future Improvements
 
-PDF document ingestion
-Cloud deployment
-Chat memory integration
-Agentic RAG architecture
-AWS/Azure deployment
-Real-time supplier APIs
-Multi-agent workflow automation
-Construction material analytics dashboard
+- PDF document ingestion
+- Cloud deployment
+- Chat memory integration
+- Agentic RAG architecture
+- AWS/Azure deployment
+- Real-time supplier APIs
+- Multi-agent workflow automation
+- Construction material analytics dashboard
+
+---
 
 # Author
-Sajjad Hussain
 
-PhD Researcher in Artificial Intelligence
+## Sajjad Hussain
+
+PhD Researcher in Artificial Intelligence  
 University of Brighton, United Kingdom
-
-
