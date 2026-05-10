@@ -1,3 +1,4 @@
+
 # ConstructRAG AI
 
 AI-powered construction product intelligence system using Retrieval-Augmented Generation (RAG), LangChain, FAISS, HuggingFace embeddings, Ollama, and Streamlit for semantic search, supplier comparison, and material recommendation.
@@ -37,6 +38,8 @@ The system leverages LangChain, FAISS vector databases, HuggingFace transformer 
 
 ---
 
+
+
 # System Architecture
 
 ```text
@@ -55,7 +58,7 @@ Ollama Local LLM
 Streamlit User Interface
 
 ---
-
+```md
 # Project Structure
 
 ```text
@@ -71,10 +74,9 @@ constructrag-ai/
 │   └── products.csv
 │
 └── vectorstore/
-
 # Installation
 
-## Clone Repository
+# Clone Repository
 
 ```bash
 git clone https://github.com/sh1755/constructrag-ai.git
@@ -122,4 +124,5 @@ Sajjad Hussain
 
 PhD Researcher in Artificial Intelligence
 University of Brighton, United Kingdom
+
 
