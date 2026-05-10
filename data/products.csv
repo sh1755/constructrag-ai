@@ -1,0 +1,5 @@
+product_id,name,category,supplier,price,description,compatible_with
+P001,Cement Board,Wall Board,BuildCo,12.50,Water resistant board for bathrooms and wet areas,Tiles Adhesive Screws
+P002,Plasterboard,Wall Board,SupplyMax,8.20,Standard internal wall board for dry areas,Paint Screws
+P003,Tile Adhesive,Adhesive,BuildCo,6.70,Adhesive for ceramic tiles,Cement Board Tiles
+P004,Insulation Roll,Insulation,HomeBuild,22.00,Thermal insulation for walls and roofs,Timber Frame Plasterboard
